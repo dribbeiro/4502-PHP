@@ -1,0 +1,42 @@
+<?php
+
+	echo date('d/m/Y H:i:s');
+	echo '<br />';
+	echo date('d-m-y');
+	echo '<br />';
+	echo date('Y-m-d');
+	echo '<br />';
+	echo date('d');
+	echo '<br />';
+	echo date('m');
+	echo '<br />';
+	echo date('Y');
+	echo '<br />';
+	echo date('d,m,Y');
+	echo '<br />';
+	echo date('d m Y');
+	echo '<br />';
+	echo time();
+	echo '<br />';
+	echo microtime();
+	echo '<br />';
+	echo $proxSemana = time() + (7 * 24 * 60 * 60);//604800s
+	echo '<br />';
+	echo date('d-m-Y', $proxSemana);
+	echo '<br />';
+	echo microtime(true);
+	echo '<hr />';
+	echo '<br />';
+	echo date('d-m-Y',strtotime('now'));
+	echo '<br />';
+	echo date('d-m-Y',strtotime('next day'));
+	echo '<br />';
+	echo date('d-m-Y',strtotime('+ 1 week'));
+	echo '<br />';
+	echo date('d-m-Y',strtotime('tomorrow'));
+	echo '<br />';
+	echo date('Y-m-d',strtotime('+ 2 days'));
+	echo '<br />';
+	echo date('Y-m-d',strtotime('+ 1 month'));
+	echo '<hr />';
+	echo date('d-m-Y H:i:s',mktime(18, 10, 10, 11, 19, 2016));
