@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+	<curso preco="900" periodo="noturno">
+		<id>500</id>
+		<nome>Desenvolvimento Web com PHP</nome>
+		<categoria>PHP</categoria>
+	</curso>
+	<curso preco="1000">
+		<id>501</id>
+		<nome>Desenvolvimento PHP Orientado a Objetos</nome>
+		<categoria>Desenvolvimento</categoria>
+	</curso>
+	<curso preco="1100">
+		<id>502</id>
+		<nome>Desenvolvimento Enterprise com PHP</nome>
+		<categoria>Desenvolvimento</categoria>
+	</curso>
+    <curso preco="1200">
+        <id>450</id>
+        <nome>Linux Fundamentals in Cloud</nome>
+        <categoria>Linux</categoria>
+    </curso>
+</cursos>

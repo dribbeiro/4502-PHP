@@ -1,2 +1,0 @@
-<?php
-//Trabalhando com Git;
